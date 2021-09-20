@@ -1,0 +1,21 @@
+.logotipo{
+    width: 150px;
+    padding: 10px 0;
+}
+.iconos-redes{
+    width: 20px;
+    margin:  10px 5px;
+}
+
+.banner-video{
+    background-image: url("../img/home/video-bg.jpg");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-video img{
+    width: 80px;
+    height: 80;
+    position: relative;
+}
