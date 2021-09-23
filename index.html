@@ -9,12 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!--Link Mi archivo css-->
     <link rel="stylesheet" href="css/main.css">
+    <!--Google Fonts-->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    -->
     <title>Mi sitio</title>
 </head>
 <body>
     <!--Menu-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -70,8 +79,14 @@
           <div class="carousel-item active">
             <img src="img/home/slider.jpg" class="d-block w-100" alt="slidere01">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+              <h1>First slide label</h1>
               <p>Some representative placeholder content for the first slide.</p>
+              <a class="btn btn-light" href="#">
+                Descarga
+              </a>
+              <a class="btn btn-light" href="#">
+                Ir a informacion
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -106,17 +121,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-4 text-center">
-                        <img class="img-fluid" src="img/home/banners/banner1.jpg" alt="banner1">
+                        <img class="img-fluid w-100" src="img/home/banners/banner1.jpg" alt="banner1">
                         <h5>Titulo 1</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatem mollitia, nihil libero officia, </p>                                               
                     </div>
                     <div class="col-12 col-sm-4 text-center">                        
-                        <img class="img-fluid" src="img/home/banners/banner2.jpg" alt="banner2">
+                        <img class="img-fluid w-100" src="img/home/banners/banner2.jpg" alt="banner2">
                         <h5>Titulo 2</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatem mollitia, nihil libero officia, </p>                        
                     </div>
                     <div class="col-12 col-sm-4 text-center">                    
-                        <img class="img-fluid" src="img/home/banners/banner3.jpg" alt="banner3">
+                        <img class="img-fluid w-100" src="img/home/banners/banner3.jpg" alt="banner3">
                         <h5>Titulo 3</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatem mollitia, nihil libero officia, </p>
                     </div>
@@ -129,8 +144,62 @@
                 <img src="img/svg/play-button.svg" alt="">
             </a>
         </section>
+
+        <section class="altura">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 col-sm-3">
+                <img class="img-fluid shadow p-3" src="img/pantallas/pantalla_1.jpg" alt="pantalla01">
+              </div>
+              <div class="col-6 col-sm-3">
+                <img class="img-fluid shadow p-3" src="img/pantallas/pantalla_2.jpg" alt="pantalla02">
+              </div>
+              <div class="col-6 col-sm-3">
+                <img class="img-fluid shadow p-3" src="img/pantallas/pantalla_3.jpg" alt="pantalla03">
+              </div>
+              <div class="col-6 col-sm-3">
+                <img class="img-fluid shadow p-3" src="img/pantallas/pantalla_4.jpg" alt="pantalla04">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="altura">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <img class="img-fluid" src="img/home/app-mockup-2.png" alt="">
+              </div>
+
+              <div class="col-12 col-sm-6">
+                <h2>Descarga tu APP</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum debitis hic quod quas dolorem temporibus ab laudantium dolore, nostrum, labore quia recusandae ea eveniet numquam quaerat? Sed delectus rem quos?</p>
+                <div class="row">
+                  <div class="col-12 col-sm-6">
+                    <img src="img/home/android.png" alt="">
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <img src="img/home//apple.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
     <!--Fin main-->
+    <!--Footer-->
+    <footer>
+      <img class="logo" src="img/home/Logotipo.png" alt="logotipo">
+      <br>
+      <img class="iconos-redes" src="img/svg/facebook-logo-button.svg" alt="facebook">
+      <img class="iconos-redes" src="img/svg/instagram-logo.svg" alt="instagram">
+      <img class="iconos-redes" src="img/svg/twitter-logo-button.svg" alt="twitter">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab deleniti voluptatem iste,<br>
+         debitis et, fugiat explicabo atque in quod consequatur, architecto reiciendis velit alias eum saepe qui excepturi ullam.</p>
+    </footer>
+    <!--FIN Footer-->
+
 
     <!--Link JS de Bootstrap 5-->    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
